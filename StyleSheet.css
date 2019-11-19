@@ -1,12 +1,43 @@
 h1 {
     font-family: monospace;
     font-size: 3.5em;
-    color: white;
+    color: black;
+    margin-left: 200px;
+    
 } 
+
+
+  .typewriter h1 {
+    width: auto;
+    display: inline-block;
+    font-family: monospace; 
+    overflow: hidden; 
+    border-right: .15em solid pink; 
+    white-space: nowrap; 
+    margin: 10 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 5.5s steps(25, end),
+      blinking-cursor .5s;
+      blink-caret .65s;
+      step-end;
+  }
+  
+  
+  @keyframes typing {
+    from {max-width: 0 }
+    to { max-width: 100% }
+  }
+  
+  
+  @keyframes blinking-cursor {
+    from, to { border-color: transparent }
+    50% { border-color: pink; }
+  }
 
 form {
     font-family: monospace;
-    color: white
+    color: black;
 }
 
 label{
@@ -19,7 +50,7 @@ input[type=text] {
     margin: 8px 0;
     box-sizing: border-box;
     font-size: 0.75em;
-    border: 5px solid teal;
+    border: 5px solid pink;
     border-radius: 4px;
 }
   
@@ -29,21 +60,27 @@ input[type=text] {
     height: 4em;
     font-family: monospace;
     font-size: 1em;
-    border: 4.5px solid teal;
+    border: 4.5px solid pink;
     border-radius: 4px;
     font-weight: bold;
 }
 
+button:hover{
+    background-color: pink;
+    color: white
+}
+
 .FirstP {
-    color: white;
+    color: black;
     font-family: monospace;
     font-size: 2em;
+    margin-left: 300px;
     }
 table{
-    color:white;
+    color:black;
     font-family: monospace;
     font-size: 2em;
-  
+    margin-left: 40px;
     text-align: center;
     border-spacing: 1px;
     
@@ -55,11 +92,19 @@ table{
     height: 3em;
     font-family: monospace;
     font-size: 1em;
-    border: 4.5px solid teal;
+    border: 4.5px solid pink;
     border-radius: 4px;
     font-weight: bold;
 }
 
 body {
-    background-color: black;
+    background: url('docs/Background.png');
+    background-size: cover;
+    background-opa
+    resize: both;
+    overflow: scroll;
+}
+
+label{
+    margin-left: 60px;
 }
