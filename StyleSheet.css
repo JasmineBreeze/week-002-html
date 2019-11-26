@@ -1,14 +1,40 @@
-h1 {
-    font-family: monospace;
-    font-size: 3.5em;
-    color: black;
-    margin-left: 200px;
-    
-} 
 
+body {
+    background: url('docs/Background.png');
+    background-size: cover;
+    color:rgb(190, 23, 140);
+
+}
+
+.container-fluid{
+    color:rgb(190, 23, 140);
+}
+
+#task2 {
+    margin-left: 80px;
+    background-color: pink;
+    color: white;
+    box-sizing: border-box;
+    font-size: 0.75em;
+    border: 5px solid pink;
+    border-radius: 4px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.row {
+    text-align: center;
+}
+
+
+h1 {
+    margin-bottom: 50px;
+    color: black;
+}
 
   .typewriter h1 {
     width: auto;
+    font-size: 50px;
     display: inline-block;
     font-family: monospace; 
     overflow: hidden; 
@@ -22,9 +48,11 @@ h1 {
       blink-caret .65s;
       step-end;
   }
-  
-  
-  @keyframes typing {
+
+
+
+
+@keyframes typing {
     from {max-width: 0 }
     to { max-width: 100% }
   }
@@ -35,16 +63,34 @@ h1 {
     50% { border-color: pink; }
   }
 
-form {
-    font-family: monospace;
-    color: black;
+
+
+  #ToDo1 {
+    justify-content: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    background-color: pink;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 100px;
+    font-size: 20px;
+    text-justify: center;
 }
 
-label{
-    font-size: 2.0em;
-}
+  .row {
+      text-align: center;
+      margin-top: 10px;;
+  }
 
-input[type=text] {
+
+  form {
+      margin-top: 50px;
+      font-size: 20px;
+  }
+
+
+
+  input[type=text] {
     width: 25%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -53,58 +99,16 @@ input[type=text] {
     border: 5px solid pink;
     border-radius: 4px;
 }
-  
-.button1 {
-    margin: 2em;
-    width: 15%;
-    height: 4em;
-    font-family: monospace;
-    font-size: 1em;
-    border: 4.5px solid pink;
-    border-radius: 4px;
-    font-weight: bold;
-}
 
-button:hover{
+#task {
     background-color: pink;
-    color: white
-}
-
-.FirstP {
-    color: black;
-    font-family: monospace;
-    font-size: 2em;
-    margin-left: 300px;
-    }
-table{
-    color:black;
-    font-family: monospace;
-    font-size: 2em;
-    margin-left: 40px;
-    text-align: center;
-    border-spacing: 1px;
+    box-sizing: border-box;
+    font-size: 0.75em;
+    border: 5px solid pink;
+    border-radius: 4px;
+    padding: 0px;
+    margin-bottom: 10px;
+    color: white;
     
 }
 
-.btn{
-    margin: 2em;
-    width: 52%;
-    height: 3em;
-    font-family: monospace;
-    font-size: 1em;
-    border: 4.5px solid pink;
-    border-radius: 4px;
-    font-weight: bold;
-}
-
-body {
-    background: url('docs/Background.png');
-    background-size: cover;
-    background-opa
-    resize: both;
-    overflow: scroll;
-}
-
-label{
-    margin-left: 60px;
-}
